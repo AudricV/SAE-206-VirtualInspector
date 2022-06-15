@@ -1,0 +1,88 @@
+@keyframes password_error_animation {
+    0% {
+        left: -10px;
+    }
+    16% {
+        left: 9px;
+    }
+    33% {
+        left: -6px;
+    }
+    50% {
+        left: 5px;
+    }
+    66% {
+        left: -2px;
+    }
+    83% {
+        left: 1px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+html {
+    background-image: url("background_start.jpg");
+}
+
+.congrats, .password_message {
+    font-size: 3.5em;
+}
+
+.congrats_and_next_step {
+    display: none;
+}
+
+.enigma {
+    display: none;
+    color: white;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 1.25em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.key {
+    display: inline;
+    font-family: "Courier New", "Courier", monospace;
+}
+
+.next_step {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: "Arial", "Helvetica", sans-serif;
+    margin-top: 1em;
+}
+
+.password {
+    display: none;
+    font-family: "Courier New", "Courier", monospace;
+    font-size: 1em;
+    width: 12.5em;
+    outline: none;
+    position: relative;
+    padding: 0.25em;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 0.25em;
+    margin-top: 2em;
+}
+
+.password_invalid {
+    animation: password_error_animation 0.6s linear 1;
+    appearance: none;
+    border-color: red;
+    border-style: solid;
+    border-radius: 0.25em;
+    margin-top: 1em;
+}
+
+.password_message {
+    display: none;
+}
+
+.start {
+    display: none;
+}

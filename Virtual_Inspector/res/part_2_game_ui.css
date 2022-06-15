@@ -1,0 +1,33 @@
+html {
+    background-image: url("computer_jefferson_smith_identity_file_hacking_result_blur.jpg");
+}
+
+.enigma {
+    display: none;
+}
+
+.hacker_name_and_data_found {
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.informations_place {
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.not_everything_got {
+    font-family: "Courier New", "Courier", monospace;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.next_step {
+    font-family: "Son Of A Glitch", "Courier New", "Courier", monospace;
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
